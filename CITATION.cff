@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Temporal Refinement and ML-Driven Uncertainty Assessment of GEBCO Bathymetry in the Nigerian EEZ"
+abstract: >-
+  A reproducible pipeline that harmonises multiple annual GEBCO gridded
+  bathymetry releases over the Nigerian Exclusive Economic Zone, derives
+  temporal and terrain descriptors, and trains a machine-learning model that
+  produces a refined depth estimate together with calibrated, conformalised
+  per-cell uncertainty.
+authors:
+  - family-names: Dogiye
+    given-names: Desmond
+version: 0.1.0
+license: MIT
+date-released: 2026-08-08
+keywords:
+  - bathymetry
+  - GEBCO
+  - machine learning
+  - uncertainty quantification
+  - conformal prediction
+  - Nigerian EEZ
+references:
+  - type: data
+    title: "GEBCO Gridded Bathymetry Data"
+    authors:
+      - name: "GEBCO Compilation Group"
+    url: "https://www.gebco.net/data_and_products/gridded_bathymetry_data/"
